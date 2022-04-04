@@ -24,10 +24,8 @@ _TODO: implement functions blurPixel, blurImage, diffLeft, highlightEdges, reduc
 
 ## Oracles
 In this assignment, you will develop an oracle to test (possibly broken) solutions to the Stable Matching Problem. This assignment is different in that:
-
-● Your purpose is not to solve the problem, but to test whether a solution given to you is correct. That is, all code you write will be tests and supporting code for tests.
-
-● There might be no unique solution. Thus, you will need to test properties of the given solution, and make sure you are considering enough properties so anything that satisfies all of them (i.e., passes all your tests) is correct.
+1. Your purpose is not to solve the problem, but to test whether a solution given to you is correct. That is, all code you write will be tests and supporting code for tests.
+2. There might be no unique solution. Thus, you will need to test properties of the given solution, and make sure you are considering enough properties so anything that satisfies all of them (i.e., passes all your tests) is correct.
 
 ### Part 1
 
@@ -36,3 +34,8 @@ _TODO: implement functions generateInput, oracle._
 ### Part 2
 
 _TODO: implement function runOracle._
+
+## Data Wrangling with JSON
+The goal of the programming task is to define a class FluentRestaurants that supports the fluent design pattern to filter the dataset. We can use this class to perform queries such as “What vegan restaurants are in Wyoming?” Or “Which Mexican restaurants in NY are rated below 2 stars?” The fluent design thus allows the queries to be chained in arbitrary orders, with specified constraints, much like a user might wish to, on the Yelp website, to find specific restaurants of interest.
+
+_TODO: define class FluentRestaurants and implement methods fromState, ratingLeq, ratingGeq, category, hasAmbience, bestPlace, mostReviews._
