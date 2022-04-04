@@ -39,3 +39,16 @@ _TODO: implement function runOracle._
 The goal of the programming task is to define a class FluentRestaurants that supports the fluent design pattern to filter the dataset. We can use this class to perform queries such as “What vegan restaurants are in Wyoming?” Or “Which Mexican restaurants in NY are rated below 2 stars?” The fluent design thus allows the queries to be chained in arbitrary orders, with specified constraints, much like a user might wish to, on the Yelp website, to find specific restaurants of interest.
 
 _TODO: define class FluentRestaurants and implement methods fromState, ratingLeq, ratingGeq, category, hasAmbience, bestPlace, mostReviews._
+
+## Streams
+
+In this assignment, you will work with streams to evaluate power series.
+Consider the seriess(x) = a_{ 0} + a_{ 1}x + a_{ 2}x^2 + ... We can represent this series by its finite or
+0 + 𝑎
+1
+𝑥 + 𝑎
+2
+𝑥
+2
++...
+infinite sequence of coefficients (𝑎 . We will view this sequence as a stream.
