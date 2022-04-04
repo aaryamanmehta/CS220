@@ -43,12 +43,49 @@ _TODO: define class FluentRestaurants and implement methods fromState, ratingLeq
 ## Streams
 
 In this assignment, you will work with streams to evaluate power series.
-Consider the seriess(x) = a_{ 0} + a_{ 1}x + a_{ 2}x^2 + ... We can represent this series by its finite or
-0 + 𝑎
-1
-𝑥 + 𝑎
-2
-𝑥
-2
-+...
-infinite sequence of coefficients (𝑎 . We will view this sequence as a stream.
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mstyle displaystyle="true" scriptlevel="0">
+    <mrow data-mjx-texclass="ORD">
+      <mtable rowspacing=".5em" columnspacing="1em" displaystyle="true">
+        <mtr>
+          <mtd>
+            <mi>s</mi>
+            <mo stretchy="false">(</mo>
+            <mi>x</mi>
+            <mo stretchy="false">)</mo>
+            <mo>=</mo>
+            <msub>
+              <mi>a</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>0</mn>
+              </mrow>
+            </msub>
+            <mo>+</mo>
+            <msub>
+              <mi>a</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>1</mn>
+              </mrow>
+            </msub>
+            <mi>x</mi>
+            <mo>+</mo>
+            <msub>
+              <mi>a</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mn>2</mn>
+              </mrow>
+            </msub>
+            <msup>
+              <mi>x</mi>
+              <mn>2</mn>
+            </msup>
+            <mo>+</mo>
+            <mo>.</mo>
+            <mo>.</mo>
+            <mo>.</mo>
+          </mtd>
+        </mtr>
+      </mtable>
+    </mrow>
+  </mstyle>
+</math>
