@@ -7,5 +7,5 @@ The goal of this assignment is to introduce you to the basic features of JavaScr
 
 ## More Higher-Order Functions for Image Processing
 Following up to Project 1, in Project 2 you will perform all processing tasks with higher order functions. As before, we use the types Pixel and Image to specify our functions:
- 1. A Pixel is a three-element array, where each element is a number in the range 0.0 to 1.0 inclusive.
- 2. An Image is an object whose 2D array of Pixels is accessed via gePixel / setPixel.
+1. A Pixel is a three-element array, where each element is a number in the range 0.0 to 1.0 inclusive.
+2. An Image is an object whose 2D array of Pixels is accessed via gePixel / setPixel.
