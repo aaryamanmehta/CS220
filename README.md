@@ -24,7 +24,9 @@ _TODO: implement functions blurPixel, blurImage, diffLeft, highlightEdges, reduc
 
 ## Oracles
 In this assignment, you will develop an oracle to test (possibly broken) solutions to the Stable Matching Problem. This assignment is different in that:
+
 ● Your purpose is not to solve the problem, but to test whether a solution given to you is correct. That is, all code you write will be tests and supporting code for tests.
+
 ● There might be no unique solution. Thus, you will need to test properties of the given solution, and make sure you are considering enough properties so anything that satisfies all of them (i.e., passes all your tests) is correct.
 
 ### Part 1
