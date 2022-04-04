@@ -43,4 +43,5 @@ _TODO: define class FluentRestaurants and implement methods fromState, ratingLeq
 ## Streams
 
 In this assignment, you will work with streams to evaluate power series.
-<img src = "https://latex.codecogs.com/svg.latex?s%28x%29%20%3D%20a_%7B%200%7D%20&plus;%20a_%7B%201%7Dx%20&plus;%20a_%7B%202%7Dx%5E2%20&plus;%20...">
+
+_TODO: implement functions addSeries, prodSeries, derivSeries, coeff, evalSeries, rec1Series, expSeries, recurSeries._
